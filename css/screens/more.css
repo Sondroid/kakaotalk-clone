@@ -1,0 +1,84 @@
+.more {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.more__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+}
+.more__link:first-child {
+    margin-left: 0;
+}
+.more__link:last-child {
+    margin-right: 0;
+}
+.more > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.more > div:last-child {
+    margin-top: 30px;
+    justify-content: baseline;
+}
+.more span {
+    font-size: 13px;
+    margin-top: 10px;
+    width: 70px;
+    text-align: center;
+}
+
+.suggestions {
+    margin-top: 30px;
+    border-top: var(--main-border);
+}
+.suggestions__title {
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.suggestions > div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.suggestions__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+.suggestions__link img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+.suggestions__link span {
+    font-size: 13px;
+    margin-top: 10px;
+    width: 90px;
+    text-align: center;
+}
+.user-component__text > div {
+    display: flex;
+    align-items: center;
+}
+.exclaim {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid tomato;
+    color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+}
